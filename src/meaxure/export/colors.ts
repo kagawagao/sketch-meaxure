@@ -2,14 +2,15 @@
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
 
-import { SMColorAsset } from "../interfaces";
-import { parseColor } from "../helpers/styles";
+import { parseColor } from '../helpers/styles';
+import { SMColorAsset } from '../interfaces';
 
 export function getDocumentColors(document: Document): SMColorAsset[] {
-    let sw = document.swatches;
-    if (sw && sw.length) return sw.map(s => ({
-        name: s.name,
-        color: parseColor(s.color),
+  let sw = document.swatches;
+  if (sw && sw.length)
+    return sw.map((s) => ({
+      name: (s as any).name,
+      color: parseColor(s.color),
     }));
-    return [];
+  return [];
 }

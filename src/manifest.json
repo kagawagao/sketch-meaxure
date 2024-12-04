@@ -3,115 +3,103 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "Toolbar",
+      "name": "工具栏",
       "identifier": "commandToolbar",
       "shortcut": "ctrl shift b",
       "handler": "commandToolbar",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Overlay",
+      "name": "标注蒙层",
       "identifier": "commandOverlays",
       "shortcut": "ctrl shift 1",
       "handler": "commandOverlays",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Sizes",
+      "name": "标注尺寸",
       "identifier": "commandSizes",
       "shortcut": "ctrl shift 2",
       "handler": "commandSizes",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Spacings",
+      "name": "标注间距",
       "identifier": "commandSpacings",
       "shortcut": "ctrl shift 3",
       "handler": "commandSpacings",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Properties",
+      "name": "标注属性",
       "identifier": "commandProperties",
       "shortcut": "ctrl shift 4",
       "handler": "commandProperties",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Note",
+      "name": "标注注释",
       "identifier": "commandNote",
       "shortcut": "ctrl shift 5",
       "handler": "commandNote",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Mark Coordinate",
+      "name": "标注坐标",
       "identifier": "commandCoordinate",
       "shortcut": "ctrl shift 6",
       "handler": "commandCoordinate",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Spec Export",
+      "name": "导出标注",
       "identifier": "commandExport",
       "shortcut": "ctrl shift e",
       "handler": "commandExport",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Toggle Hidden",
+      "name": "隐藏/显示标注",
       "identifier": "commandHidden",
       "shortcut": "ctrl shift h",
       "handler": "commandHidden",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Toggle Locked",
+      "name": "锁定/解锁标注",
       "identifier": "commandLocked",
       "shortcut": "ctrl shift l",
       "handler": "commandLocked",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Clear Marks",
+      "name": "清除标注",
       "identifier": "commandClear",
       "shortcut": "",
       "handler": "commandClear",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Settings",
+      "name": "设置",
       "identifier": "commandSettings",
       "shortcut": "",
       "handler": "commandSettings",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Rename Old Markers",
-      "identifier": "commandRenameOldMarkers",
-      "handler": "commandRenameOldMarkers",
-      "script": "mark_bundle.js"
-    },
-    {
-      "name": "Run Script",
+      "name": "运行脚本",
       "identifier": "commandRunScript",
       "handler": "commandRunScript",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Feedback",
-      "identifier": "linkFeedback",
-      "handler": "linkFeedback",
-      "script": "mark_bundle.js"
-    },
-    {
-      "name": "Home",
+      "name": "主页",
       "identifier": "linkHome",
       "handler": "linkHome",
       "script": "mark_bundle.js"
     },
     {
-      "name": "Init",
+      "name": "初始化",
       "identifier": "commandInit",
       "handlers": {
         "actions": {
@@ -139,15 +127,7 @@
       "commandLocked",
       "commandClear",
       "-",
-      "commandSettings",
-      {
-        "title": "Help",
-        "items": [
-          "commandRenameOldMarkers",
-          "linkHome",
-          "linkFeedback"
-        ]
-      }
+      "commandSettings"
     ],
     "title": "Sketch MeaXure"
   }
